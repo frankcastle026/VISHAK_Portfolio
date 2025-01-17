@@ -2,7 +2,9 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="p-10 bg-custom-bg-color bg-custom-pattern flex flex-col xs:flex-col lg:flex-row lg:items-center lg:justify-between">
+    <div className="p-10 bg-white flex flex-col xs:flex-col lg:flex-row lg:items-center lg:justify-between" style={{
+      boxShadow: '0 -4px 6px -1px rgba(0, 0, 0, 0.1), 0 -2px 4px -2px rgba(0, 0, 0, 0.1)',
+    }}>
       {/* Image Section */}
       <div className="relative w-full h-auto xs:order-1 lg:order-2 lg:w-1/2 lg:h-[400px]">
         <img

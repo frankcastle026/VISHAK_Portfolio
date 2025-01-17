@@ -43,10 +43,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-custom-bg-color bg-custom-pattern text-black min-h-screen text-lg flex justify-center items-center" id="Contact">
+    <div className="bg-white text-black min-h-screen text-lg flex justify-center items-center" id="Contact">
       <div
         
-        className="max-w-2xl mx-auto p-8 shadow-lg text-center"
+        className="max-w-2xl mx-auto p-8 text-center"
       >
         <h2 className="text-black font-NeuePlak text-3xl xl:text-5xl anton-regular mb-4">
           Let’s Create Unforgettable Vibes Together!
@@ -100,7 +100,7 @@ const Contact = () => {
           ></textarea>
           <button
             type="submit"
-            className="w-full p-3 rounded-lg bg-white text-black text-lg font-semibold hover:bg-cyan-400 transition-all"
+            className="w-full p-3 rounded-lg bg-white text-black text-lg shadow-lg font-semibold hover:bg-cyan-400 transition-all"
           >
             Send
           </button>
